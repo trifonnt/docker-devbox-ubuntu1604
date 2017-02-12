@@ -7,3 +7,7 @@
   cd docker-devbox-ubuntu1604--base/
   docker build .
 ```
+
+
+TODO:
+[ ] Push to store.docker.com
