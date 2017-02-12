@@ -1,10 +1,10 @@
 FROM ubuntu:16.04
-# FROM bento:
+# FROM bento: -- TODO use bento image
 MAINTAINER Trifon Trifonov <trifont@gmail.com>
 RUN apt-get update -y	&& \
 	apt-get install -y mc vim vim-nox \
     build-essential cmake ctags pkg-config apt-utils autoconf libtool \
-    svn mercurial git \
+    subversion mercurial git \
     wget curl \
     zip bzip2 && \
 
