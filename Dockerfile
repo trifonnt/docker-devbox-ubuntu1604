@@ -1,5 +1,5 @@
-FROM ubuntu:16.04
-# FROM bento: -- TODO use bento image
+FROM docker/ubuntu:16.04
+# FROM docker/bento: -- TODO use bento image
 MAINTAINER Trifon Trifonov <trifont@gmail.com>
 RUN apt-get update -y	&& \
 	apt-get install -y mc vim vim-nox \
