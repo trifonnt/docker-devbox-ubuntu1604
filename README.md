@@ -11,4 +11,4 @@
 
 TODO:
 
-[ ] Push to store.docker.com
+ [] Push to store.docker.com
