@@ -21,5 +21,4 @@ Check newly created image
  ```
 
 TODO:
-
- [] Push to store.docker.com
+- [ ] Push to store.docker.com
