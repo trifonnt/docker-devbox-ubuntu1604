@@ -9,6 +9,18 @@
   docker build -t trifon-devbox-ubuntu:1604_01 .
 ```
 
+Check newly created image
+
+```shell
+
+  docker images
+ ```
+ 
+ Start docker container with the new image
+ 
+ ```shell
+  docker run trifon-devbox-ubuntu:1604_01
+ ```
 
 TODO:
 
