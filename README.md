@@ -5,7 +5,8 @@
 
   git clone https://github.com/trifonnt/docker-devbox-ubuntu1604--base.git
   cd docker-devbox-ubuntu1604--base/
-  docker build .
+
+  docker build -t trifon-devbx-ubuntu:1604_01 .
 ```
 
 
