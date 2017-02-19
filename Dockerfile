@@ -1,16 +1,18 @@
 FROM docker/ubuntu:16.04
 # FROM docker/bento: -- TODO use bento image
+
 MAINTAINER Trifon Trifonov <trifont@gmail.com>
+
 RUN apt-get update -y	&& \
 	apt-get install -y mc vim vim-nox \
-    build-essential cmake ctags pkg-config apt-utils autoconf libtool \
-    subversion mercurial git \
-    wget curl \
-    zip bzip2 && \
+	build-essential cmake ctags pkg-config apt-utils autoconf libtool \
+	subversion mercurial git \
+	wget curl \
+	zip bzip2 && \
 
-  # Time zone(UTC+2)
-  ln -fs /usr/share/zoneinfo/Europe/Sofia /etc/localtime && \
-  dpkg-reconfigure -f noninteractive tzdata && \
+	# Time zone(UTC+2)
+	ln -fs /usr/share/zoneinfo/Europe/Sofia /etc/localtime && \
+	dpkg-reconfigure -f noninteractive tzdata && \
 
 	# Change to root folder
 	cd && \
